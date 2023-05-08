@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="angular.min.js"></script>
+    <link rel="stylesheet" href="5.css">
+    <link rel="stylesheet" href="dashicons/dashicons/dashicons.css">
+    <title>Movie search</title>
+</head>
+<body>
+    
+    <div class="wrapper">
+        <!-- LOGO -->
+        <div class="logo">
+            <div class="container">
+                <p>Malik <span>Movies</span></p>
+            </div>
+        </div>
+        <!-- End of LOGO -->
+
+        <!-- Search container -->
+        <div class="search-container">
+            <div class="search-element">
+                <h3>Search Movies: </h3>
+                <input type="text" class="form-control" placeholder="Search Movie Title....." id="movie-search-box" onkeyup="findMovies()" onclick="findMovies()">
+
+                <div class="search-list" id="search-list">
+                    <!-- List here -->
+                    <div class="search-list-item">
+                        <!-- <div class="search-item-thumbnail">
+                            <img src="thor-movie-cover.jpg" alt="">
+                        </div>
+
+                        <div class="search-item-info">
+                            <h3>THOR</h3>
+                            <p> 2011 </p>
+                        </div> -->
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+        <!-- End of Search container -->
+
+        <!-- result container -->
+        <div class="container">
+            <div class="result-container">
+                <div class="result-grid" id="result-grid">
+                    <!-- Movie information here -->
+                    <!-- <div class="movie-poster">
+                        <img src="thor-movie-cover.jpg" alt="Movie poster">
+                    </div>
+                    <div class="movie-info">
+                        <h3 class="movie-title">
+                            THOR
+                        </h3>
+                        <ul class="movie-misc-info">
+                            <li class="year">Year: 2011</li>
+                            <li class="rated">Rated: PG-13</li>
+                            <li class="released">Released: 06 May 2011</li>
+                        </ul>
+                        <p class="genre"><b>Genre:</b> Action, Adventure, Fantasy</p>
+                        <p class="writer"><b>Writer:</b>  Kenneth Branagh, Ashley Edward Miller, Zack Stentz, Don Payne, J. Michael Straczynski,  Mark Protosevich</p>
+                        <p class="actors"><b>Actors:</b> Chris Hemsworth, Natalie Portman, Tom Hiddleston, Idris Elba</p>
+                        <p class="plot"><b>Plot:</b> Thor is exiled by his father, Odin, the King of Asgard, to the Earth to live among mortals. When he lands on Earth, his trusted weapon Mjolnir is discovered and captured by S.H.I.E.L.D.</p>
+                        <p class="language"> <b>Language:</b> English</p>
+                        <p class="awards"> <b> Awards:</b> Empire Award for Best Male Newcomer, Empire Award for Best Sci-Fi/Fantasy</p>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <!-- end of result container -->
+    </div>
+
+
+    <!-- Javascript -->
+    <script src="5.js"></script>
+</body>
+</html>
